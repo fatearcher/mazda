@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <header class="header-pc">
+      <div class="header-box">
+        <h1>
+          <a href="index.html"><img src="img/logo.jpg" alt="" /></a>
+        </h1>
+
+        <nav class="pc-nav">
+          <ul>
+            <li><a href="">CARS&nbsp</a></li>
+            <li><a href="">OWNERS&nbsp&nbsp</a></li>
+            <li><a href="">BUILD YOUR MAZDA&nbsp&nbsp</a></li>
+            <li><a href="">USERD CARS&nbsp&nbsp</a></li>
+            <li><a href="">BUSINESS</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <header class="header-mb">
+      <h1>
+        <a href=""><img src="img/logo.jpg" alt="" /></a>
+      </h1>
+      <div id="nav-toggle">
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="gloval-nav">
+        <nav>
+          <ul>
+            <li><a href="index.html">CARS&nbsp</a></li>
+            <li><a href="">OWNERS&nbsp&nbsp</a></li>
+            <li><a href="">BUILD YOUR MAZDA&nbsp&nbsp</a></li>
+            <li><a href="">USERD CARS&nbsp&nbsp</a></li>
+            <li><a href="">BUSINESS</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="bg">
+        <img src="img/111.jpg" alt="" />
+        <!-- <div class="wenzi">
+          <p>MAZDA CX-5</p>
+        </div> -->
+      </div>
+
+      <section class="content">
+        <div>
+          <h1>COM­FORT AND SAFETY FOR THE WHOLE FAM­ILY</h1>
+          <p>
+            Mazda CX-5 combines the latest responsive road performance
+            engineering with a spacious interior design and infotainment system.
+            The latest model delivers an advanced driving experience while
+            keeping all passengers safe and comfortable at all times.
+          </p>
+        </div>
+        <div class="picture">
+          <img src="img/2.jpg" alt="" />
+          <div class="child">
+            <div class="child-1"><img src="./img/3.jpg" alt="" /></div>
+            <div class="child-2"><img src="./img/4.jpg" alt="" /></div>
+          </div>
+        </div>
+        <div class="picture2"><img src="./img/5.jpg" alt="" /></div>
+        <div class="picture">
+          <div class="child">
+            <div class="child-1"><img src="./img/6.jpg" alt="" /></div>
+            <div class="child-2"><img src="./img/7.jpg" alt="" /></div>
+          </div>
+        </div>
+        <div class="picture">
+          <div class="child">
+            <div class="child-1"><img src="./img/8.jpg" alt="" /></div>
+            <div class="child-2"><img src="./img/9.jpg" alt="" /></div>
+          </div>
+        </div>
+        <div class="picture wang" style="height: 600px">
+          <div class="child" style="margin-top: 80px">
+            <div class="child-1 teshu">
+              <img src="./img/10.jpg" alt="" />
+              <h1>I-ACTIV ALL-WHEEL DRIVE & G-VECTORING</h1>
+              <p>
+                For increased traction and a reassuring sense of control every
+                time. Working together with G-Vectoring Control Plus, the system
+                helps to maintain grip and steering accuracy by shifting vehicle
+                weight upon turn entry and exit to achieve a smoother drive.
+              </p>
+            </div>
+            <div class="child-2 teshu">
+              <img src="./img/11.jpg" alt="" />
+              <h1>COMFORT FOR ALL</h1>
+              <p>
+                Long family car trips are a pleasure for everyone, with
+                comfortably spacious interior and the latest safety innovations
+                that will make your trip a great experience.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="picture wang" style="height: 600px">
+          <div class="child" style="margin-top: 100px">
+            <div class="child-1 teshu">
+              <img src="./img/12.jpg" alt="" />
+              <h1>CARGO VOLUME</h1>
+              <p>
+                With up to 1,620 litres of cargo space, you can pack the
+                supplies you need for big family adventures.
+              </p>
+            </div>
+            <div class="child-2 teshu">
+              <img src="./img/13.jpg" alt="" />
+              <h1>MAZDA CONNECT</h1>
+              <p>
+                The 10.25" colour display and multimedia commander lets you tune
+                into DAB radio, connect to mobile apps, or access text messages
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>© Mazda Motor Corporation All Right Reserved</footer>
+    <script>
+      const navToggle = document.getElementById("nav-toggle");
+      navToggle.addEventListener("click", function (event) {
+        document.querySelector("body").classList.toggle("open");
+        document.querySelector(".custom-btn").classList.toggle("none");
+        document.querySelector(".custom-btn-1").classList.toggle("none");
+        document.querySelector(".custom-btn-2").classList.toggle("none");
+      });
+    </script>
+  </body>
+</html>
